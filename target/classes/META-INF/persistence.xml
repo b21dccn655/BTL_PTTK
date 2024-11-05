@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>model.ThanhVien655</class>
+    <class>model.KH655</class>
+    <class>model.NhanVien655</class>
+    <class>model.NVK655</class>
+    <class>model.NVBH655</class>
+    <class>model.NVKT655</class>
+    <class>model.NVQL655</class>
+    <class>model.LichHen655</class>
+    <class>model.DichVu655</class>
+    <class>model.PhuTung655</class>
+    <class>model.KHYeuCau655</class>
+    <class>model.HoaDon655</class>
+    <class>model.DVYeuCau655</class>
+    <class>model.PTYeuCau655</class>
+    <class>model.TKDVTDT655</class>
+    <class>model.TKPTTDT655</class>
+    <class>model.TKDVPTTDT655</class>
+  </persistence-unit>
+</persistence>
